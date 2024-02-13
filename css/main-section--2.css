@@ -1,0 +1,17 @@
+.main-section--2 {
+   max-width: 1280px;
+   background: #ffeead;
+}
+
+.cards-top {
+   height: 205px;
+   display: flex;
+   align-items: center;
+}
+
+.cards-top__hand {
+   overflow: hidden;
+   margin-left: -110px;
+}
+
+.cards-top__title {}
