@@ -1,0 +1,128 @@
+.our-stars {
+   width: 1280px;
+   background: #ffeead;
+   padding-top: 100px;
+   padding-bottom: 80px;
+   position: relative;
+}
+
+.our-stars__wrapper {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.our-stars__title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 115%;
+   color: #333;
+   font-family: sans-serif;
+   margin-bottom: 65px;
+   text-align: center;
+}
+
+.our-stars__list {
+   display: flex;
+   list-style: none;
+   margin-bottom: 44px;
+}
+
+.star-list {}
+
+.our-stars__item {
+   display: flex;
+   flex-direction: column;
+   width: 353px;
+   background-color: #fff;
+   padding: 20px 20px 0 20px;
+   border-radius: 11px;
+   position: relative;
+}
+
+.our-stars__item:not(:last-child) {
+   margin-right: 20px;
+}
+
+.star-list__title {
+   order: 2;
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 115%;
+   color: #333;
+}
+
+.star-list__description {
+   order: 3;
+   margin-bottom: 20px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #333;
+}
+
+.star-list img {
+   order: 1;
+   margin-bottom: 20px;
+}
+
+.new::after {
+   content: 'new';
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   padding: 8px 16px;
+   background: #ffb334;
+   border-radius: 8px 8px 8px 0;
+   text-transform: uppercase;
+}
+
+.pretty::after {
+   content: 'ласковый';
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   background: #7fc92e;
+   border-radius: 8px 8px 8px 0;
+   text-transform: uppercase;
+   padding: 8px 16px;   
+}
+.hand {
+   position: absolute;
+   margin-top: -55px;
+}
+
+.leave {
+   position: absolute;
+   top: 769px;
+   left: 1170px
+}
+
+.buy-ticket {
+   border-radius: 5px;
+   background: #ff732b;
+   color: #fff;
+   padding: 17px 115px;
+   border-style: none;
+}
+.buy-ticket:hover {
+   background: #f35714;
+   color: #ffffff;
+}
+
+.vector {
+   position: absolute;
+   top: 611px;
+   left: 0;
+}

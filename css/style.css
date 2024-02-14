@@ -1,4 +1,7 @@
+@import url('./variable.css');
 @import url('./global.css');
+
 @import url('./main-header.css');
 @import url('./main-section.css');
-@import url('./main-section--2.css');
+@import url('./our-stars.css');
+@import url('./site-footer.css');
