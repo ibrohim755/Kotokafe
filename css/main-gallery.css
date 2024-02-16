@@ -1,0 +1,87 @@
+.main-header__gallery-link {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   color: #333;
+   font-family: sans-serif;
+   display: flex;
+   align-items: center;
+}
+
+.second-page {}
+
+.main-gallery {
+   width: 1280px;
+   background: #ffeead;
+   position: relative;
+}
+
+.main-gallery__wrapper {
+   width: 1110px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+
+.main-gallery__title {
+   margin: 79px 0 65px 0;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 115%;
+   color: #333;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+.main-gallery__big-foto>img {
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-bottom: 25px;
+}
+
+.main-gallery__list {
+   margin-left: 21px;
+   margin-bottom: 100px;
+}
+
+.gallery-list {
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+
+.gallery-list__item {
+   list-style: none;
+   margin-right: 20px;
+}
+
+.left-button {
+   position: absolute;
+   top: 665px;
+   left: 183px;
+}
+
+.right-button {
+   position: absolute;
+   top: 665px;
+   right: 183px;
+   transform: rotate(180deg);
+}
+
+.main-gallery__hand {
+   position: absolute;
+   top: 80px;
+   left: 1057px;
+}
+
+.main-gallery__frame {
+   position: absolute;
+   top: 0;
+   left: 959px;
+}
+
+.main-gallery__leave {
+   position: absolute;
+   top: 710px;
+   left: 0;
+}

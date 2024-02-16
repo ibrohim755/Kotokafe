@@ -1,6 +1,8 @@
 @import url('./variable.css');
 @import url('./global.css');
 
+@import url('./buy-ticket.css');
+@import url('./main-gallery.css');
 @import url('./main-header.css');
 @import url('./main-section.css');
 @import url('./our-stars.css');

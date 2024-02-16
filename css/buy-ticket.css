@@ -1,0 +1,181 @@
+.book-ticket {
+   background: #fff6d9;
+}
+
+.book-ticket__wrapper {
+   width: 1100px;
+   margin: 0 auto;
+}
+
+.book-ticket__title {
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 115%;
+   color: #333;
+   font-family: sans-serif;
+   padding: 100px 0 25px 0;
+}
+
+.book-ticket__order {
+   border-radius: 20px;
+   padding: 40px;
+   width: 540px;
+   background: #fff;
+}
+
+.order {}
+
+.order__hour {}
+
+.choose-hour {}
+
+.choose-hour__title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   color: #333;
+   font-family: sans-serif;
+   padding-bottom: 12px;
+}
+
+.choose-hour__list {
+   display: flex;
+   list-style: none;
+   padding-bottom: 24px;
+}
+
+.hour-list__item,
+.hour-list__item1 {
+   border-radius: 8px;
+   width: 44px;
+   height: 44px;
+   background: #f6f6f6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 12px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   color: #333;
+   font-family: sans-serif;
+}
+
+.hour-list__item1 {
+   background: #ff732b;
+   color: #fff;
+}
+
+.order__card-type {}
+
+.card-type {
+   margin-bottom: 25px;
+}
+
+.card-type__title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   color: #333;
+   font-family: sans-serif;
+   padding-bottom: 12px;
+}
+
+.card-type__standart,
+.card-type__vip {
+   border-radius: 10px;
+   width: 460px;
+   height: 48px;
+   background: #e7e3e3;
+   display: flex;
+   align-items: center;
+   padding: 0 20px 0 20px;
+}
+
+.card-type__standart {
+   margin-bottom: 8px;
+}
+
+.card-type__standart>span,
+.card-type__vip>span {
+   display: flex;
+   flex-grow: 1;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #333;
+   font-family: sans-serif;
+}
+
+.checked {
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   border: 1px solid #ff732b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 8px;
+}
+
+.checked__item {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background-color: #ff732b;
+}
+
+.disabled {
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   border: 1px solid #ff732b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 8px;
+}
+
+.sign {
+   color: rgb(0, 0, 0);
+}
+
+.order__cost {}
+
+.cost {}
+
+.cost__title {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   color: #333;
+   font-family: sans-serif;
+   margin-bottom: 8px;
+}
+
+.cost__description {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 115%;
+   color: #333;
+   font-family: sans-serif;
+   margin-bottom: 40px;
+}
+
+.order__main-button {
+   border-radius: 5px;
+   padding: 0px 24px;
+   width: 100%;
+   height: 60px;
+   background: #ff732b;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   color: #fff;
+   font-family: sans-serif;
+   border: none;
+}
+
+.buy-ticket__image {}
