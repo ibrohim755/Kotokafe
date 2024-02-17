@@ -21,6 +21,11 @@
 }
 
 .create-date {
+   border-radius: 8px;
+   padding: 8px 12px;
+   width: 146px;
+   height: 43px;
+   background: #fff6d9;
    display: flex;
    align-items: center;
    font-weight: 400;

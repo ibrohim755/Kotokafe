@@ -7,6 +7,10 @@
    margin: 0 auto;
 }
 
+.container {
+   display: flex;
+}
+
 .book-ticket__title {
    font-weight: 700;
    font-size: 44px;
@@ -23,7 +27,9 @@
    background: #fff;
 }
 
-.order {}
+.order {
+   margin-right: 115px;
+}
 
 .order__hour {}
 
@@ -178,4 +184,20 @@
    border: none;
 }
 
-.buy-ticket__image {}
+/* .buy-ticket__image {
+   position: relative;
+} */
+
+.container {
+   position: relative;
+}
+
+.container> .last-picture__item{
+   position: absolute;
+   top: 0;
+   left: 60%;
+}
+.container> .last-picture__item2{
+   z-index: 2;
+}
+
