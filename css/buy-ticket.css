@@ -9,6 +9,7 @@
 
 .container {
    display: flex;
+   padding-bottom: 100px;
 }
 
 .book-ticket__title {
@@ -33,7 +34,9 @@
 
 .order__hour {}
 
-.choose-hour {}
+.choose-hour {
+   border: none;
+}
 
 .choose-hour__title {
    font-weight: 700;
@@ -77,6 +80,7 @@
 
 .card-type {
    margin-bottom: 25px;
+   border: none;
 }
 
 .card-type__title {
@@ -161,12 +165,13 @@
 }
 
 .cost__description {
+   display: block;
    font-weight: 700;
    font-size: 24px;
    line-height: 115%;
    color: #333;
    font-family: sans-serif;
-   margin-bottom: 40px;
+   padding-bottom: 40px;
 }
 
 .order__main-button {

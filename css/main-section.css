@@ -4,18 +4,18 @@ body {
 }
 
 
-.main-section {
+.about {
    display: flex;
    background: #fff6d9;
 }
 
-.main-section__information {
+.about__information {
    display: flex;
    flex-direction: column;
    padding: 159px 0 159px 0;
 }
 
-.main-section__title {
+.about__title {
    font-family: sans-serif;
    font-weight: 700;
    font-size: 44px;
@@ -24,7 +24,7 @@ body {
    margin-bottom: 20px;
 }
 
-.main-section__description {
+.about__description {
    font-family: sans-serif;
    font-weight: 400;
    font-size: 18px;
@@ -34,7 +34,7 @@ body {
    margin-bottom: 40px;
 }
 
-.main-section__work-time {
+.about__work-time {
    border-radius: 8px;
    padding: 8px;
    width: 292px;
@@ -49,7 +49,7 @@ body {
    margin-bottom: 28px;
 }
 
-.main-section__location {
+.about__location {
    font-weight: 400;
    font-size: 18px;
    line-height: 150%;
@@ -58,17 +58,17 @@ body {
    margin-left: 8px;
 }
 
-.main-section__img {
+.about__img {
    display: flex;
    align-items: center;
 }
 
-.main-section__picture {
+.about__picture {
    padding: 75px 0 77px 65px;
    position: relative;
 }
 
-.main-section__picture--layer {
+.about__picture--layer {
    position: absolute;
 }
 .main-section__picture--frame {

@@ -1,4 +1,4 @@
-.site-footer {
+.main-footer {
    width: 1280px;
    height: 80px;
    display: flex;
@@ -6,13 +6,13 @@
    justify-content: center;
 }
 
-.site-footer__logo {
+.main-footer__logo {
    display: flex;
    align-items: center;
    flex-grow: 1;
 }
 
-.site-footer__logo span {
+.main-footer__logo span {
    margin-left: 24px;
    font-weight: 700;
    font-size: 28px;

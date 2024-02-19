@@ -55,12 +55,12 @@
 
    <header class="main-header">
       <div class="wrapper">
-         <div class="main-header__logo">
+         <a href="index.html" class="main-header__logo">
             <svg width="44" height="40">
                <use xlink:href="#logo"></use>
             </svg>
             <span>Котокафе</span>
-         </div>
+         </a>
          <a class="main-header__gallery-link" href="index.html">Главная</a>
       </div>
    </header>
@@ -94,14 +94,13 @@
             <use xlink:href="#left-button"></use>
          </svg>
       </section>
-
       <section class="book-ticket">
          <div class="book-ticket__wrapper">
             <h2 class="book-ticket__title">Купить билет</h2>
             <div class="container">
-               <div class="book-ticket__order order">
-                  <div class="order__hour choose-hour">
-                     <h3 class="choose-hour__title">Продолжительность (часов)</h3>
+               <form  class="book-ticket__order order">
+                  <fieldset class="order__hour choose-hour">
+                     <legend class="choose-hour__title">Продолжительность (часов)</legend>
                      <ul class="choose-hour__list hour-list">
                         <li class="hour-list__item1">1</li>
                         <li class="hour-list__item">2</li>
@@ -109,9 +108,9 @@
                         <li class="hour-list__item">4</li>
                         <li class="hour-list__item">5</li>
                      </ul>
-                  </div>
-                  <div class="order__card-type card-type">
-                     <h3 class="card-type__title">Тип билета</h3>
+                  </fieldset>
+                  <fieldset class="order__card-type card-type">
+                     <legend class="card-type__title">Тип билета</legend>
                      <div class="card-type__standart">
                         <div class="checked">
                            <div class="checked__item"></div>
@@ -128,32 +127,32 @@
                            <use xlink:href="#button-sign"></use>
                         </svg>
                      </div>
-                  </div>
+                  </fieldset>
                   <div class="order__cost cost">
-                     <h4 class="cost__title">Цена</h4>
-                     <p class="cost__description">3000 руб.</p>
+                     <p class="cost__title">Цена</p>
+                     <b class="cost__description">3000 руб.</b>
                   </div>
                   <button type="submit" class="order__main-button">
                      Купить билет
                   </button>
-               </div>
+               </form>
                <img class="last-picture__item2" src="./img/gallery-cat.png" alt="">
                <img class="last-picture__item" src="./img/book-ticket.png" alt="">
             </div>
          </div>
       </section>
-      <footer class="site-footer">
+      <footer class="main-footer">
          <div class="wrapper">
-            <div class="site-footer__logo">
+            <div class="main-footer__logo">
                <svg width="44" height="40">
                   <use xlink:href="#logo"></use>
                </svg>
    
                <span>Котокафе</span>
             </div>
-            <div class="create-date">
+            <span class="create-date">
                Создано 2021
-            </div>
+            </span>
          </div>
       </footer>
 
